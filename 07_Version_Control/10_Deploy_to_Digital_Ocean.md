@@ -220,6 +220,11 @@ Also, while you're there, add a subdomain called `helloworld` which also points 
 
 <img src='http://making-the-internet.s3.amazonaws.com/version-control-namecheap-dns@2x.png' class='' style='max-width:916px; width:100%' alt='Namecheap DNS'>
 
+Go to Domain List -> Manage Domain-> Under the Domain tab there is a NAMESERVERS section. Add the following Custom nameservers:
+* ns1.digitalocean.com
+* ns2.digitalocean.com
+* ns3.digitalocean.com
+
 Give the above settings a few minutes to take effect, then test out your domain. You should see the same results you saw above when you tested your IP address, but this time it's loaded via your domain name:
 
 <img src='http://making-the-internet.s3.amazonaws.com/vc-namecheap-domain-first-working@2x.png' class='Test new domain' style='max-width:917px; width:100%' alt=''>
